@@ -19,6 +19,6 @@ Route::get('/posts', function () {
     return view('posts.posts');
 });
 
-Route::get('/posts/{post}', function () {
-    return view('posts.post');
+Route::get('/contact-us', function () {
+    return view('pages.contact');
 });
